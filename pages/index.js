@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-
+import styles from "../styles/x.module.css";
 function index() {
   return (
     <>
@@ -13,6 +13,7 @@ function index() {
       >
         to courses
       </Link> */}
+      <p id={styles.p}>test</p>
     </>
   );
 }
